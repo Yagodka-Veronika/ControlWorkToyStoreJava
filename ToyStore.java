@@ -47,7 +47,7 @@ public class ToyStore {
                 break;
             }
         }
-        FileWriter writer = new FileWriter("prize1.txt");
+        FileWriter writer = new FileWriter("prize.txt");
         writer.write(prizeToy.getName());
         writer.close();
         return prizeToy;
